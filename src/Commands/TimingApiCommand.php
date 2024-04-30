@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace BlandIndustries\TimingApi\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class TimingApiCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'timing-api';
 
     public $description = 'My command';
 
