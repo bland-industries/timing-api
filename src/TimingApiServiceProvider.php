@@ -4,7 +4,6 @@ namespace BlandIndustries\TimingApi;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use BlandIndustries\TimingApi\Commands\TimingApiCommand;
 
 class TimingApiServiceProvider extends PackageServiceProvider
 {

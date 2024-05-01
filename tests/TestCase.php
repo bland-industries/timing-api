@@ -2,9 +2,9 @@
 
 namespace BlandIndustries\TimingApi\Tests;
 
+use BlandIndustries\TimingApi\TimingApiServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use BlandIndustries\TimingApi\TimingApiServiceProvider;
 
 class TestCase extends Orchestra
 {
