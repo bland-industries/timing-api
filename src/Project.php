@@ -19,17 +19,17 @@ class Project extends TimingApi
     /**
      * Query Parameters to send in request.
      * Default to not including archived projects.
+     *
      * @var array
      */
-    protected $queryParameters = array(
-        'hide_archived' => 'true'
-    );
+    protected $queryParameters = [
+        'hide_archived' => 'true',
+    ];
 
     /**
      * Search the title for the given string.
      *
-     * @param String $title
-     * @return Self
+     * @return self
      */
     public function titleSearch(string $title)
     {
@@ -41,7 +41,7 @@ class Project extends TimingApi
     /**
      * Include archived projects in results.
      *
-     * @return Self
+     * @return self
      */
     public function includeArchived()
     {
