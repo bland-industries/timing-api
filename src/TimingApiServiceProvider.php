@@ -17,9 +17,6 @@ class TimingApiServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('timing-api')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_timing-api_table')
-            ->hasCommand(TimingApiCommand::class);
+            ->hasConfigFile();
     }
 }
