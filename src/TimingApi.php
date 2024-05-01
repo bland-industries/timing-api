@@ -14,8 +14,6 @@ class TimingApi
      */
     protected $endPoint = 'time-entries';
 
-    protected static $token = null;
-
     /**
      * An array of options to be used by the Mixpanel library.
      * @var array
@@ -108,10 +106,5 @@ class TimingApi
     public function get()
     {
         return $this->call()['data'];
-    }
-
-    public static function setToken(string $token)
-    {
-        self::$token = $token;
     }
 }

@@ -79,7 +79,5 @@
                 "TimingApi": "BlandIndustries\\TimingApi\\Facades\\TimingApi"
             }
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
